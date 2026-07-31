@@ -89,7 +89,7 @@ export interface AttributeRequirement {
  * contrat de données, et c'est la moitie du travail d'un déploiement réel.
  */
 export const DEFAULT_REQUIREMENTS: AttributeRequirement[] = [
-  { attribute: 'givenName', label: 'Prenom', breaksLine: 'Ligne identité', regulated: false, severity: 'critical' },
+  { attribute: 'givenName', label: 'Prénom', breaksLine: 'Ligne identité', regulated: false, severity: 'critical' },
   { attribute: 'surname', label: 'Nom', breaksLine: 'Ligne identité', regulated: false, severity: 'critical' },
   { attribute: 'mail', label: 'Email', breaksLine: 'Ligne contact', regulated: false, severity: 'critical' },
   { attribute: 'jobTitle', label: 'Fonction', breaksLine: 'Ligne fonction', regulated: false, severity: 'major' },

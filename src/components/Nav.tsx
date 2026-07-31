@@ -23,8 +23,8 @@ const SECTIONS: Array<{ title: string; items: Array<[string, string]> }> = [
   {
     title: 'Déployer',
     items: [
-      ['/déploiement', 'Déploiement'],
-      ['/périmètre', 'Périmètre honnête'],
+      ['/deploiement', 'Déploiement'],
+      ['/perimetre', 'Périmètre honnête'],
     ],
   },
 ]
