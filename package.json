@@ -1,0 +1,24 @@
+{
+  "name": "socle",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Socle — compilateur de signatures email defensives, linter, simulateur de degradation et contrat de degradation gracieuse. Ancre sur veille-signatures-email.md (juillet 2026).",
+  "scripts": {
+    "dev": "next dev -p 4311",
+    "build": "next build",
+    "start": "next start -p 4311",
+    "test": "node --test --experimental-strip-types src/core/__tests__/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "typescript": "^5.8.3"
+  }
+}
